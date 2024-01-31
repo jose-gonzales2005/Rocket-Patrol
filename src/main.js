@@ -5,6 +5,9 @@ let config = {
     scene: [ Menu, Play ],
 }
 
+//keyboard bindings 
+let keyFIRE, keyRESET, keyLEFT, keyRIGHT
+
 let game = new Phaser.Game(config)
 
 let borderUISize = game.config.height / 15
